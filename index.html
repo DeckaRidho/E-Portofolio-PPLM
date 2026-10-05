@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E-Portofolio PPL Mandiri</title>
+  <meta name="description" content="E-Portofolio kegiatan PPL Mandiri di SMK Negeri 6 Malang">
+  <meta name="theme-color" content="#FFC918">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23FFC918'/%3E%3Ccircle cx='50' cy='50' r='24' fill='none' stroke='%231B2030' stroke-width='12' stroke-dasharray='9 7'/%3E%3Ccircle cx='50' cy='50' r='10' fill='%231B2030'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,600..900&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="lewati" href="#isi">Langsung ke isi</a>
+
+  <header class="kepala">
+    <div class="kepala-atas">
+      <a class="merek" href="#profil">
+        <svg class="roda" viewBox="0 0 100 100" aria-hidden="true">
+          <circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="14" stroke-dasharray="11 9"/>
+          <circle cx="50" cy="50" r="22" fill="none" stroke="currentColor" stroke-width="8"/>
+          <circle cx="50" cy="50" r="8" fill="currentColor"/>
+        </svg>
+        <span>E-Portofolio PPL Mandiri</span>
+      </a>
+      <div class="progres" id="progres" aria-live="polite"></div>
+    </div>
+    <nav class="kepala-nav" id="navigasi" aria-label="Daftar bagian"></nav>
+    <div class="belang" aria-hidden="true"></div>
+  </header>
+
+  <main id="isi"><div class="lajur" id="lajur"></div></main>
+
+  <footer class="kaki" id="kaki"></footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Foto diperbesar">
+    <figure>
+      <img alt="">
+      <figcaption></figcaption>
+    </figure>
+    <button type="button" class="lb-tombol sebelum" aria-label="Foto sebelumnya">Sebelumnya</button>
+    <button type="button" class="lb-tombol sesudah" aria-label="Foto berikutnya">Berikutnya</button>
+    <button type="button" class="lb-tombol tutup" aria-label="Tutup foto">Tutup</button>
+  </dialog>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
